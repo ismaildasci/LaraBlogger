@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Facade;
+use SebastianBergmann\Type\TrueType;
 
 return [
 
@@ -41,7 +42,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', false),
+    'debug' => (bool) env('APP_DEBUG', True),
 
     /*
     |--------------------------------------------------------------------------
