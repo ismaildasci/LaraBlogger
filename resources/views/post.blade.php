@@ -7,6 +7,7 @@
 
         </div>
 
+            <a href="/">Return Back</a>
     </article>
 
 </x-layout>
