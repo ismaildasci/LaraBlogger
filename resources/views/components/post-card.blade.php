@@ -11,7 +11,6 @@
         <div class="mt-6 flex flex-col justify-between flex-1">
             <header>
                 <div class="space-x-2">
-
                     <x-category-button :category="$post->category" />
                 </div>
 
