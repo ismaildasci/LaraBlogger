@@ -4,21 +4,9 @@
 <link rel="stylesheet" href="/app.css">
 
 <body>
+    <?php foreach ($posts as $post) : ?>
     <article>
-        <h1><a href="/posts/my-first-post">My First Post</a></h1>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe molestias eius, vitae, perferendis placeat aperiam pariatur id ratione excepturi ipsa earum, quidem vel magnam tenetur illum cupiditate! Quo, sunt? Quia?</p>
+        <?= $post ?>
     </article>
-
-    <article>
-        <h1><a href="/posts/my-second-post">My Second Post</a></h1>
-
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur excepturi nihil voluptatum possimus nostrum ex? Dolor accusamus repudiandae quae ullam recusandae, voluptas eveniet illo perferendis dolorem quos excepturi alias provident.</p>
-    </article>
-
-    <article>
-        <h1><a href="/posts/my-third-post">My Third Post</a></h1>
-
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe molestias eius, vitae, perferendis placeat aperiam pariatur id ratione excepturi ipsa earum, quidem vel magnam tenetur illum cupiditate! Quo, sunt? Quia?</p>
-    </article>
+    <?php endforeach; ?>
 </body>
