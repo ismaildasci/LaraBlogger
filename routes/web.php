@@ -5,9 +5,7 @@ use App\Http\Controllers\PostCommentsController;
 use App\Http\Controllers\PostsController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SessionsController;
-use App\Services\Newsletter;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Validation\ValidationException;
 
 Route::post('newsletter', NewsletterController::class);
 
