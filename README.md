@@ -135,6 +135,7 @@ Now, run the database migrations and seeders:
 
 
 ```sh
+php artisan migrate --seed
 
 ```
 
