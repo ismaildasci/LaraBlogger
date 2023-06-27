@@ -9,8 +9,6 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $guarded = [];
-
     protected $with = ['category', 'author'];
 
     // public function getRouteKeyName()
@@ -31,8 +29,7 @@ class Post extends Model
 
     public function comments()
     {
-        // return $this->hasMany(Comment::class);
-        return $this->hasMany(Comment::class)->latest();
+        return $this->hasMany(Comment::class);
     }
 
     public function scopeFilter($query, array $filters)
